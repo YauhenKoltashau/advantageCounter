@@ -55,9 +55,6 @@ export const SetCounter = (props: SetCounterPropsType) => {
         }
 
     }
-    const observerError=()=>{
-        props.observerErrors(errorS || errorM || maxValue <= startValue)
-    }
 
     const setData = () => {
         if (maxValue > startValue) {
