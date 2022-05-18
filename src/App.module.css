@@ -1,0 +1,11 @@
+.mainWrapper {
+    border: 5px solid deepskyblue;
+    margin: 30px;
+    padding: 40px;
+    display: grid;
+    grid-template-areas: 'counter' 'set';
+    background: grey;
+    width: auto;
+    height: auto;
+
+}

@@ -1,0 +1,110 @@
+
+.counterBack {
+    margin: 10px;
+    grid-area: set;
+    border-radius: 10px;
+    border: 5px solid deepskyblue;
+    display: grid;
+    grid-template-areas:
+    'c'
+    'cm';
+    width: 400px;
+    text-align: center;
+    padding: 2px;
+    background-color: -moz-default-background-color;
+
+}
+.counter {
+    margin: 5px;
+    padding: 5px;
+    font-family: "Al Bayan";
+    border: 5px solid deepskyblue;
+    border-radius: 30px;
+    font-size: 100px;
+    color: deepskyblue;
+    width: 370px;
+    height: 150px;
+    grid-area: c;
+    background-color: grey;
+}
+.counterManagement {
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    display: grid;
+    grid-template-areas: 'u r';
+    grid-template-columns: 50% 50%;
+    grid-area: cm;
+    border: 5px solid deepskyblue;
+    width: 370px;
+    height: 100px;
+}
+.up {
+    border-radius: 30px;
+    font-family: "Al Bayan";
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    grid-area: u;
+    background-color: deepskyblue;
+
+}
+.reset {
+    border-radius: 30px;
+    font-family: "Al Bayan";
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    grid-area: r;
+    background-color: deepskyblue;
+
+
+}
+
+.error {
+    color: blue;
+    grid-area: e;
+    font-size: 20px;
+    font-family: "Al Bayan"
+}
+.red {
+    margin: 5px;
+    padding: 5px;
+    font-family: "Al Bayan";
+    border: 5px solid deepskyblue;
+    border-radius: 30px;
+    font-size: 100px;
+    color: red;
+    width: 370px;
+    height: 150px;
+    grid-area: c;
+    background-color: grey;
+}
+.currentMessage {
+    position: center;
+    margin: 5px;
+    padding: 5px;
+    font-family: "Al Bayan";
+    border: 5px solid deepskyblue;
+    border-radius: 30px;
+    font-size: 30px;
+    color: deepskyblue;
+    width: 370px;
+    height: 150px;
+    grid-area: c;
+    background-color: grey;
+}
+.currentErrorMessage {
+    position: center;
+    margin: 5px;
+    padding: 5px;
+    font-family: "Al Bayan";
+    border: 5px solid deepskyblue;
+    border-radius: 30px;
+    font-size: 30px;
+    color: red;
+    width: 370px;
+    height: 150px;
+    grid-area: c;
+    background-color: grey;
+}

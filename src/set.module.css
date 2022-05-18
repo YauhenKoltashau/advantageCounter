@@ -1,0 +1,79 @@
+
+.setMain {
+    margin: 10px;
+    grid-area: set;
+    border-radius: 10px;
+    border: 5px solid deepskyblue;
+    display: grid;
+    grid-template-areas:
+    'sp'
+    'sb';
+    width: 400px;
+    text-align: center;
+    padding: 2px;
+    background-color: -moz-default-background-color;
+
+}
+.setParameters {
+    margin: 5px;
+    padding: 5px;
+    font-family: "Al Bayan";
+    border: 5px solid deepskyblue;
+    border-radius: 30px;
+    font-size: 40px;
+    color: deepskyblue;
+    width: 370px;
+    grid-area: sp;
+    background-color: grey;
+}
+.setButton {
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    display: grid;
+    grid-template-areas: 'b';
+    grid-template-columns: 50% 50%;
+    grid-area: sb;
+    border: 5px solid deepskyblue;
+    width: 370px;
+    height: 100px;
+}
+.button {
+    border-radius: 30px;
+    font-family: "Al Bayan";
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    grid-area: b;
+    background-color: deepskyblue;
+
+}
+
+
+.error {
+    color: blue;
+    grid-area: e;
+    font-size: 20px;
+    font-family: "Al Bayan"
+}
+.input {
+    font-family: "Al Bayan";
+    text-align: center;
+    font-size: 25px;
+    margin-left: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid deepskyblue;
+}
+.inputError {
+    background: red;
+    font-family: "Al Bayan";
+    text-align: center;
+    font-size: 25px;
+    margin-left: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid deepskyblue;
+}
